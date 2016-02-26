@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:zjt="http://schemas.android.com/apk/res/com.example.drawview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp" >
+
+        <com.example.drawview.view.CustomImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            zjt:image="@drawable/ic_launcher"
+            zjt:imageScaleType="center"
+            zjt:titleText="hello andorid ! "
+            zjt:titleTextColor="#ff0000"
+            zjt:titleTextSize="30sp" />
+
+    </ScrollView>
+    
+      
+
+    <com.example.drawview.view.CustomImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        zjt:image="@drawable/ic_launcher"
+        zjt:imageScaleType="center"
+        zjt:titleText="hello andorid ! "
+        zjt:titleTextColor="#ff0000"
+        zjt:titleTextSize="30sp" />
+
+    <!--
+    <com.example.drawview.view.CustomImageView 
+        android:layout_width="100dp"  
+        android:layout_height="wrap_content"  
+        android:layout_margin="10dp"  
+        android:padding="10dp"  
+        zjt:image="@drawable/ic_launcher"  
+        zjt:imageScaleType="center"  
+        zjt:titleText="helloworldwelcome"  
+        zjt:titleTextColor="#00ff00"  
+        zjt:titleTextSize="20sp" />
+    -->
+
+
+    <!--
+    <com.example.drawview.view.CustomImageView 
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:layout_margin="10dp"  
+        android:padding="10dp"  
+        zjt:image="@drawable/lmj"  
+        zjt:imageScaleType="center"  
+        zjt:titleText="妹子~"  
+        zjt:titleTextColor="#ff0000"  
+        zjty:titleTextSize="12sp" />
+    -->
+
+</LinearLayout>
