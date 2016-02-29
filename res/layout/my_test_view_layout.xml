@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zjt="http://schemas.android.com/apk/res/com.example.drawview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <com.example.drawview.view.MtTestView 
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        zjt:titleText="1121"
+        zjt:titleTextColor="#ff0000"
+        zjt:titleTextSize="28sp"
+        />
+    
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:src="@android:color/darker_gray"
+        />
+    
+    
+    
+
+</LinearLayout>
